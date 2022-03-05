@@ -12,6 +12,7 @@ namespace FFS.Services
     {
         public event Action<bool> CheckedChanged; 
 
+        //test
         public DriveInfo Drive => _drive;
         public int TakenStoragePct => 100 - _drive.GetUsagePercentage();
         public string DriveName => _drive.Name;
